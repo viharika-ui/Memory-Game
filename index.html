@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="levelScreen" class="screen">
+  <h1><b>🧠MEMORY GAME</b></h1>
+
+  <div class="level-card" onclick="startWithLevel('easy')">
+    <h1>Easy</h1>
+    <p id="best-easy">Best Time: --</p>
+  </div>
+
+  <div class="level-card" onclick="startWithLevel('medium')">
+    <h1>Medium</h1>
+    <p id="best-medium">Best Time: --</p>
+  </div>
+
+  <div class="level-card" onclick="startWithLevel('hard')">
+    <h1>Hard</h1>
+    <p id="best-hard">Best Time: --</p>
+  </div>
+</div>
+
+<div id="gameScreen" class="screen hidden">
+  <h1 id="levelTitle"></h1>
+
+  <div class="stats">
+    <h2><span id="moves">Moves: 0</span></h2>
+    <h3><span id="timer">Time: 0s</span></h3>
+  </div>
+
+  <div class="controls">
+    <button onclick="restartGame()">Restart</button>
+    <button onclick="togglePause()" id="pauseBtn">Pause</button>
+    <button onclick="goToLevels()">Back</button>
+  </div>
+
+  <div class="game-board" id="gameBoard"></div>
+</div>
+
+<div id="popup" class="popup">
+  <h2>🎉 You Won!</h2>
+  <p id="finalStats"></p>
+  <button onclick="restartGame()">Play Again</button>
+  <button onclick="goToLevels()">Back</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
