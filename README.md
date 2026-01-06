@@ -33,3 +33,10 @@ Test your brain by matching emoji pairs across multiple difficulty levels!
 Try to finish in **minimum time and moves**.
 
 ---
+
+## 🚀 Live Demo
+
+After deployment, your game will be available here:
+
+https://viharika-ui.github.io/Memory-Game/
+
