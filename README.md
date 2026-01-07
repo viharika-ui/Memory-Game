@@ -40,3 +40,26 @@ After deployment, your game will be available here:
 
 https://viharika-ui.github.io/Memory-Game/
 
+
+---
+
+## 🛠️ Built With
+
+- HTML5  
+- CSS3  
+- JavaScript  
+
+---
+
+## 📦 Installation (Run Locally)
+
+1. Download or clone the repository  
+2. Open `index.html` in any browser  
+3. Start playing!
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Chandra Viharika Ravilla**
+
