@@ -61,5 +61,6 @@ https://viharika-ui.github.io/Memory-Game/
 
 ## 👨‍💻 Author
 
-Made with ❤️ by **Chandra Viharika Ravilla**
+**Chandra Viharika Ravilla**
+
 
